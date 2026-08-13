@@ -14,7 +14,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://glistening-surprise-production-ac3d.up.railway.app"
+    ],
     credentials: true
   })
 );
