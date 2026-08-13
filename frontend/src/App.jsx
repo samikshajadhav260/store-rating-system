@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://store-rating-system-production-e808.up.railway.app/api";
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
