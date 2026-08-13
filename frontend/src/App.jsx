@@ -3,7 +3,6 @@ import axios from "axios";
 import "./App.css";
 
 const API_URL = "https://store-rating-system-production-e808.up.railway.app/api";
-
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
   const [user, setUser] = useState(
